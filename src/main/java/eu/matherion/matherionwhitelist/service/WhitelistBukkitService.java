@@ -1,9 +1,11 @@
-package eu.matherion.matherionwhitelist;
+package eu.matherion.matherionwhitelist.service;
 
 import cz.maku.mommons.worker.annotation.BukkitCommand;
 import cz.maku.mommons.worker.annotation.BukkitEvent;
 import cz.maku.mommons.worker.annotation.Load;
 import cz.maku.mommons.worker.annotation.Service;
+import eu.matherion.matherionwhitelist.MatherionWhitelist;
+import eu.matherion.matherionwhitelist.service.WhitelistService;
 import net.luckperms.api.LuckPerms;
 import net.luckperms.api.model.group.Group;
 import net.luckperms.api.model.user.User;

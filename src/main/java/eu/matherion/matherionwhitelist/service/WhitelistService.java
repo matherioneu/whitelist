@@ -1,17 +1,15 @@
-package eu.matherion.matherionwhitelist;
+package eu.matherion.matherionwhitelist.service;
 
 import com.google.common.collect.Lists;
-import cz.maku.mommons.bukkit.scheduler.Schedulers;
 import cz.maku.mommons.ef.Repositories;
 import cz.maku.mommons.ef.Tables;
 import cz.maku.mommons.ef.repository.Repository;
 import cz.maku.mommons.server.Server;
 import cz.maku.mommons.storage.database.type.MySQL;
-import cz.maku.mommons.worker.WorkerReceiver;
 import cz.maku.mommons.worker.annotation.Initialize;
 import cz.maku.mommons.worker.annotation.Service;
+import eu.matherion.matherionwhitelist.entity.WhitelistedServer;
 import net.luckperms.api.model.group.Group;
-import org.bukkit.Bukkit;
 
 import java.lang.reflect.InvocationTargetException;
 import java.sql.Connection;

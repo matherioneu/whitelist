@@ -1,8 +1,9 @@
-package eu.matherion.matherionwhitelist;
+package eu.matherion.matherionwhitelist.entity;
 
 import com.google.common.reflect.TypeToken;
 import cz.maku.mommons.Mommons;
 import cz.maku.mommons.ef.converter.TypeConverter;
+import eu.matherion.matherionwhitelist.MatherionWhitelist;
 import net.luckperms.api.model.group.Group;
 
 import java.lang.reflect.Type;

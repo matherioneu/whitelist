@@ -1,4 +1,4 @@
-package eu.matherion.matherionwhitelist;
+package eu.matherion.matherionwhitelist.entity;
 
 import com.google.common.reflect.TypeToken;
 import cz.maku.mommons.Mommons;

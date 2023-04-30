@@ -1,9 +1,11 @@
-package eu.matherion.matherionwhitelist;
+package eu.matherion.matherionwhitelist.entity;
 
 import cz.maku.mommons.ef.annotation.AttributeConvert;
 import cz.maku.mommons.ef.annotation.AttributeName;
 import cz.maku.mommons.ef.annotation.Entity;
 import cz.maku.mommons.ef.annotation.Id;
+import eu.matherion.matherionwhitelist.entity.LuckPermsGroupConverter;
+import eu.matherion.matherionwhitelist.entity.NicknamesConverter;
 import lombok.Getter;
 import lombok.Setter;
 import net.luckperms.api.model.group.Group;

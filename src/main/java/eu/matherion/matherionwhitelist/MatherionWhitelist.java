@@ -3,6 +3,8 @@ package eu.matherion.matherionwhitelist;
 import com.google.common.collect.Lists;
 import cz.maku.mommons.worker.WorkerReceiver;
 import cz.maku.mommons.worker.plugin.WorkerPlugin;
+import eu.matherion.matherionwhitelist.service.WhitelistBukkitService;
+import eu.matherion.matherionwhitelist.service.WhitelistService;
 import net.luckperms.api.LuckPerms;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.RegisteredServiceProvider;
