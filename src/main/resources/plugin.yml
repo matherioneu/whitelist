@@ -1,0 +1,6 @@
+name: MatherionWhitelist
+version: '${version}'
+main: eu.matherion.matherionwhitelist.MatherionWhitelist
+api-version: 1.17
+depend:
+  - MommonsLoader
